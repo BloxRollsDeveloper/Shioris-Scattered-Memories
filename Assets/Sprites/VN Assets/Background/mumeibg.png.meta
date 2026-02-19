@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 1f2fcd257a933e74fa56017be90b410b
+guid: 73c370d427dc4dc48b0dafaffdd351ed
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8753790552990769929
-    second: signal-2022-03-09-10-53-13-669_0
+      213: -5889483484978233989
+    second: mumeibg_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: signal-2022-03-09-10-53-13-669_0
+      name: mumeibg_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 525
-        height: 972
+        width: 1920
+        height: 1080
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9036f2dd026bb7970800000000000000
-      internalID: 8753790552990769929
+      spriteID: b7db75769f9544ea0800000000000000
+      internalID: -5889483484978233989
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      signal-2022-03-09-10-53-13-669_0: 8753790552990769929
+      mumeibg_0: -5889483484978233989
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
