@@ -1,0 +1,165 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3122762043336795786
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9106836901951764729}
+  - component: {fileID: 1275508799857519924}
+  - component: {fileID: 3074686419762141598}
+  m_Layer: 0
+  m_Name: VNEventsContainer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9106836901951764729
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3122762043336795786}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1275508799857519924
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3122762043336795786}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 515a9323ac935aa808ea73e76308a264, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::VNHandler
+  leftSceneCharacter: {fileID: 0}
+  rightSceneCharacter: {fileID: 0}
+  currentSpeakerName: {fileID: 0}
+  currentText: {fileID: 0}
+  nextTriviaSceneName: 3GuraWorld
+  eventsForThisLevel:
+  - currentLeftSprite: {fileID: 8782918817089731711, guid: 489046f93862d8e348623c420d469acf, type: 3}
+    currentRightSprite: {fileID: 4470933308240834805, guid: 0bc6cde9a4ec52f4297c948d04044c26, type: 3}
+    currentSpeakerName: Gura
+    currentText: 'YAHOY!! '
+    currentVAClip: {fileID: 8300000, guid: e36bc178209643606865c0320667211d, type: 3}
+  - currentLeftSprite: {fileID: -6731276745139234834, guid: bacaf7e2335b59db9bbf74468c039a9c, type: 3}
+    currentRightSprite: {fileID: 4470933308240834805, guid: 0bc6cde9a4ec52f4297c948d04044c26, type: 3}
+    currentSpeakerName: Gura
+    currentText: Will you solve my puzzle?
+    currentVAClip: {fileID: 8300000, guid: a378dd3ba3494061a984df753f59e151, type: 3}
+  - currentLeftSprite: {fileID: -6731276745139234834, guid: bacaf7e2335b59db9bbf74468c039a9c, type: 3}
+    currentRightSprite: {fileID: 4470933308240834805, guid: 0bc6cde9a4ec52f4297c948d04044c26, type: 3}
+    currentSpeakerName: Shiori (thinking)
+    currentText: I really don't wanna do this...
+    currentVAClip: {fileID: 8300000, guid: f1b6cc6c42088d64d838b2ec10752c93, type: 3}
+--- !u!82 &3074686419762141598
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3122762043336795786}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
